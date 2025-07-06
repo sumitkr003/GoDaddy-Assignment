@@ -1,69 +1,61 @@
-# React + TypeScript + Vite
+# Readme
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Basic Setup
 
-Currently, two official plugins are available:
+1. Dependencies: NodeJs, React, Typescript, Vite
+2. Clone the repository
+3. Run `npm install` to install dependencies
+4. Run `npm run dev` to start the development server
+5. Open the browser and navigate to `http://localhost:5173`
+6. You are ready to go!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Project Structure
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+.
+├── README.md
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── src
+│   ├── App.css
+│   ├── App.tsx
+│   ├── components
+│   │   ├── Loader.tsx
+│   │   ├── RepositoryInfo.tsx
+│   │   └── RepositorySidebar.tsx
+│   ├── config
+│   │   └── repoTable.ts
+│   ├── index.css
+│   ├── index.ts
+│   ├── main.tsx
+│   ├── mocks
+│   │   └── repo.ts
+│   ├── pages
+│   │   ├── RepoList.tsx
+│   │   └── ViewRepository.tsx
+│   ├── types
+│   │   └── table.ts
+│   └── types
+│       └── repository.ts
+└── tsconfig.node.json
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Project Dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+#### React
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- React Router
+- React Query
+
+#### Material UI
+
+- Material UI
+- Material Icons
+
+#### Other
+
+- Typescript
+- ESLint
+- Prettier
