@@ -23,6 +23,8 @@ const RepoList = () => {
 
   if (isPending) return <Loader />;
   if (error) return "An error has occurred: " + error?.message;
+
+  const defaultSelectedRespitory = selectedRepo ?? data?.[0];
   return (
     <>
       <Typography variant="h4" sx={{ textAlign: "center" }}>
@@ -31,10 +33,10 @@ const RepoList = () => {
       <Box sx={{ display: "flex" }}>
         <RepositorySidebar
           repos={data ?? repoList}
-          selectedRepo={selectedRepo}
+          selectedRepo={defaultSelectedRespitory}
           handleRepoSelection={handleRepoSelection}
         />
-        <RepositoryInfo repo={selectedRepo} />
+        <RepositoryInfo repo={defaultSelectedRespitory} />
       </Box>
     </>
   );

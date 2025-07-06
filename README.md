@@ -12,34 +12,43 @@
 ### Project Structure
 
 ```
-.
-├── README.md
-├── index.html
-├── package.json
-├── tsconfig.json
-├── vite.config.ts
-├── src
-│   ├── App.css
-│   ├── App.tsx
-│   ├── components
-│   │   ├── Loader.tsx
-│   │   ├── RepositoryInfo.tsx
-│   │   └── RepositorySidebar.tsx
-│   ├── config
-│   │   └── repoTable.ts
-│   ├── index.css
-│   ├── index.ts
-│   ├── main.tsx
-│   ├── mocks
-│   │   └── repo.ts
-│   ├── pages
-│   │   ├── RepoList.tsx
-│   │   └── ViewRepository.tsx
-│   ├── types
-│   │   └── table.ts
-│   └── types
-│       └── repository.ts
-└── tsconfig.node.json
+📁 src
+├── 📁 assets
+│   ├── 🖼️ image.png
+│   └── 🧬 react.svg
+├── 📁 components
+│   ├── 📁 __tests__
+│   │   ├── 🧪 RepositoryDescriptionCard.test.tsx
+│   │   ├── 🧪 RepositoryInfo.test.tsx
+│   │   └── 🧪 RepositorySidebar.test.tsx
+│   ├── 📄 Loader.tsx
+│   ├── 📄 RepositoryDescriptionCard.tsx
+│   ├── 📄 RepositoryInfo.tsx
+│   ├── 📄 RepositorySidebar.tsx
+│   └── 📄 index.ts
+├── 📁 mocks
+│   └── 📄 repo.ts
+├── 📁 pages
+│   └── 📄 RepositoryList.tsx
+├── 📁 types
+├── 📄 App.css
+├── 📄 App.tsx
+├── 📄 index.css
+├── 📄 main.tsx
+├── 📄 setupTests.ts
+├── 📄 vite-env.d.ts
+📄 .gitignore
+📄 eslint.config.js
+📄 index.html
+📄 jest.config.ts
+📄 package-lock.json
+📄 package.json
+📄 README.md
+📄 tsconfig.app.json
+📄 tsconfig.json
+📄 tsconfig.node.json
+📄 vite.config.ts
+
 ```
 
 ### Project Dependencies
@@ -59,3 +68,10 @@
 - Typescript
 - ESLint
 - Prettier
+
+### Testing Framework
+
+- Jest
+- React Testing Library
+
+![alt text](./src/assets/image.png)
