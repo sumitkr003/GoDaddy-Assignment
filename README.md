@@ -75,3 +75,7 @@
 - React Testing Library
 
 ![alt text](./src/assets/image.png)
+
+### Screenshot
+<img width="1728" alt="image" src="https://github.com/user-attachments/assets/bb1b5c39-2ea1-40f2-ae95-4a1b29f98e31" />
+
