@@ -1,3 +1,5 @@
+import type { Repository } from "../types/repository";
+
 export const repoList = [
   {
     id: 4967118,
@@ -136,7 +138,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 5540434,
@@ -287,7 +288,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 5543196,
@@ -434,7 +434,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 6549859,
@@ -571,7 +570,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 6888467,
@@ -718,7 +716,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 9914027,
@@ -855,7 +852,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 10449934,
@@ -998,7 +994,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 12011831,
@@ -1152,7 +1147,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 12012362,
@@ -1300,7 +1294,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 12711222,
@@ -1455,7 +1448,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 12997686,
@@ -1585,7 +1577,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 13070802,
@@ -1717,7 +1708,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 13107590,
@@ -1865,7 +1855,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 13332629,
@@ -2007,7 +1996,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 14054370,
@@ -2155,7 +2143,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 14177306,
@@ -2310,7 +2297,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 14528605,
@@ -2443,7 +2429,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 15684874,
@@ -2586,7 +2571,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 15920051,
@@ -2734,7 +2718,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 15968350,
@@ -2883,7 +2866,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 16128233,
@@ -3022,7 +3004,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 16384198,
@@ -3173,7 +3154,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 18536528,
@@ -3317,7 +3297,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 18661755,
@@ -3465,7 +3444,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 18690687,
@@ -3619,7 +3597,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 19707884,
@@ -3778,7 +3755,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 19951108,
@@ -3917,7 +3893,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 20651864,
@@ -4066,7 +4041,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 20664592,
@@ -4219,7 +4193,6 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
   {
     id: 20666268,
@@ -4367,6 +4340,5 @@ export const repoList = [
       triage: false,
       pull: true,
     },
-    custom_properties: {},
   },
-];
+] as Repository[];

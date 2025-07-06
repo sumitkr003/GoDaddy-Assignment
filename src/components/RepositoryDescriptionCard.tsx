@@ -65,7 +65,10 @@ const RepositoryDescriptionCard: FC<{
         ...containerStyles,
         backgroundColor: isSelected ? "#ffffff" : "none",
       }}
+      role="button"
+      data-testid={`repo-card-${name}`}
       onClick={handleClick}
+      data-selected={isSelected}
     >
       <Stack sx={titleWrapperStyles}>
         <Typography variant="h6">{name}</Typography>
